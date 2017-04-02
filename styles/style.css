@@ -1,0 +1,87 @@
+body{
+	background-color:#000;
+	font-family: 'Roboto Slab', serif;
+	color:#249bcb;
+	/*font-family: 'Lato', sans-serif;*/
+}
+
+/* Don't forget to Edit opacity */
+.navbar{
+	background:-webkit-linear-gradient(rgba(0,0,0,.9), rgba(0,0,0,.8)), url("media/sublime1200x800.jpg") bottom center no-repeat fixed;
+	background:-o-linear-gradient(rgba(0,0,0,.9), rgba(0,0,0,.8)), url("media/sublime1200x800.jpg") bottom center no-repeat fixed;
+	background:-moz-linear-gradient(rgba(0,0,0,.9), rgba(0,0,0,.8)), url("media/sublime1200x800.jpg") bottom center no-repeat fixed;
+	background:linear-gradient(rgba(0,0,0,.9), rgba(0,0,0,.8)), url("media/sublime1200x800.jpg") bottom center no-repeat fixed;
+	background-size:cover;
+
+	padding-left:125px;
+	padding-right:125px;
+}
+
+/* Mark Paolo Libunao */
+.header-name{
+	display:inline-block;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+	font-size:16px;
+}
+
+.navbar-nav>li>a {
+	color:#249bcb;
+	-webkit-transition:background-color 1s, color 1s;
+	transition:background-color 1s;
+	text-align:center;
+}
+
+.navbar-nav>li>a:hover{
+	background-color:#c4dce6;
+	border-bottom: 3px solid #0e7aa9;
+	color:#0e7aa9;
+}
+
+.active{
+	background-color:#c4dce6;
+}
+
+#home{
+	margin-top:53px;
+	height:100%;
+	width:100%;
+	background:-webkit-linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url("media/city_beach1920x1280.jpg") center center no-repeat fixed;
+	background:-o-linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url("media/city_beach1920x1280.jpg") center center no-repeat fixed;
+	background:-moz-linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url("media/city_beach1920x1280.jpg") center center no-repeat fixed;
+	background:linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url("media/city_beach1920x1280.jpg") center center no-repeat fixed;
+	background-size:cover;
+	padding-top: 220px;
+	padding-bottom: 220px;
+}
+
+.home-container{
+	width:600px;
+}
+
+
+.home{
+	text-align:center;
+	color:#c4dce6;
+}
+
+#aboutMe{
+	height:1000px;
+	padding-top:50px;
+	padding-bottom: 50px;
+	/* either (with or w/o gradient) actually .3 isn't so dark but might help with seeing the text better.
+	I'll try without first since it's more alive and light*/
+	
+	/*background:linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url("media/thomas1920x1280.jpg") bottom center no-repeat fixed;*/
+	background:url("media/thomas1920x1280.jpg") bottom center no-repeat fixed;
+	background-size:cover;
+}
+
+.myImg{
+	padding-left:30px;
+	padding-right: 30px;
+	border-radius: 50%;
+	
+}
+

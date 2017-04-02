@@ -29,7 +29,7 @@ body{
 .navbar-nav>li>a {
 	color:#249bcb;
 	-webkit-transition:background-color 1s, color 1s;
-	transition:background-color 1s;
+	transition:background-color 1s, color 1s;
 	text-align:center;
 }
 
@@ -66,22 +66,61 @@ body{
 	color:#c4dce6;
 }
 
-#aboutMe{
-	height:1000px;
-	padding-top:50px;
+#about-me{
+
+	height:100%;
+	padding-top:70px;
 	padding-bottom: 50px;
 	/* either (with or w/o gradient) actually .3 isn't so dark but might help with seeing the text better.
 	I'll try without first since it's more alive and light*/
 	
-	/*background:linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url("media/thomas1920x1280.jpg") bottom center no-repeat fixed;*/
-	background:url("media/thomas1920x1280.jpg") bottom center no-repeat fixed;
+	background:linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url("media/thomas1920x1280.jpg") bottom center no-repeat fixed;
+	/*background:url("media/thomas1920x1280.jpg") bottom center no-repeat fixed;*/
 	background-size:cover;
+
+	/* Text hard too see in some angles due to bg having too many different colors*/
+	color:#249bcb;
+
 }
 
-.myImg{
-	padding-left:30px;
-	padding-right: 30px;
+.about-me-header{
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.about-me-section{
+	margin-bottom: 10px; /* was 30px */
+}
+
+/* my-img div container */
+.about-me-img{
+	display: inline-block;
+	margin-right:20px;
+	margin-left:50px;
+}
+
+/* actual image */
+.my-img{
+	padding:5px 5px 5px 5px;
 	border-radius: 50%;
-	
+	transition:border .2s, padding .2s;
+	-webkit-transition:border .2s, padding .2s;	
 }
 
+.about-me-content-container{
+	font-family: 'Lato', sans-serif;
+	/*margin-top:40px;*/
+	color:#c4dce6;
+}
+
+/* header for each sub section of the content which contains text */
+.about-me-content-header{
+	margin-bottom: 15px;
+	margin-top:25px;
+	margin-left:40px;
+}
+
+/* fa element inside heading */
+.about-me-fa{
+	margin-right:15px;
+}

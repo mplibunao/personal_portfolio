@@ -116,6 +116,10 @@ body{
 	-webkit-transition:border .2s, padding .2s;	
 }
 
+.my-img:hover{
+	cursor: pointer;
+}
+
 .about-me-content-container{
 	font-family: 'Lato', sans-serif;
 	margin-top:20px;
@@ -246,4 +250,8 @@ p.project-description{
 	width:50%;
 	height: 100%;
 	text-align:center;
+}
+
+.hover-container:hover{
+	cursor: pointer;
 }

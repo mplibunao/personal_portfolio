@@ -1,8 +1,12 @@
 body{
 	background-color:#000;
 	font-family: 'Roboto Slab', serif;
-	color:#249bcb;
 	/*font-family: 'Lato', sans-serif;*/
+	color:#249bcb;
+}
+
+.inline{
+	display:inline-block;
 }
 
 /* Don't forget to Edit opacity */
@@ -67,14 +71,15 @@ body{
 }
 
 #about-me{
-
 	height:100%;
 	padding-top:70px;
 	padding-bottom: 50px;
 	/* either (with or w/o gradient) actually .3 isn't so dark but might help with seeing the text better.
 	I'll try without first since it's more alive and light*/
-	
-	background:linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url("media/thomas1920x1280.jpg") bottom center no-repeat fixed;
+	background:-webkit-linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("media/thomas1920x1280.jpg") bottom center no-repeat fixed;
+	background:-o-linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("media/thomas1920x1280.jpg") bottom center no-repeat fixed;
+	background:-moz-linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("media/thomas1920x1280.jpg") bottom center no-repeat fixed;
+	background:linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("media/thomas1920x1280.jpg") bottom center no-repeat fixed;
 	/*background:url("media/thomas1920x1280.jpg") bottom center no-repeat fixed;*/
 	background-size:cover;
 
@@ -95,13 +100,17 @@ body{
 /* my-img div container */
 .about-me-img{
 	display: inline-block;
+	/*
 	margin-right:20px;
 	margin-left:50px;
+	*/
 }
 
 /* actual image */
 .my-img{
+	/*height:100%;  test*/
 	padding:5px 5px 5px 5px;
+	margin-bottom: 100px;
 	border-radius: 50%;
 	transition:border .2s, padding .2s;
 	-webkit-transition:border .2s, padding .2s;	
@@ -109,18 +118,126 @@ body{
 
 .about-me-content-container{
 	font-family: 'Lato', sans-serif;
-	/*margin-top:40px;*/
+	margin-top:20px;
 	color:#c4dce6;
+	height:100%; /* test*/
+
 }
 
 /* header for each sub section of the content which contains text */
 .about-me-content-header{
-	margin-bottom: 15px;
-	margin-top:25px;
+	margin-bottom: 10px;
+	margin-top:20px;
+}
+
+.about-me-content{
+	font-size:18px;
 	margin-left:40px;
+	/*text-align: justify;*/
+}
+
+.about-me-link{
+	color:#7499b2;
+}
+
+.about-me-link:hover{
+	color:#0e7aa9;
+	text-decoration: none;
+}
+
+.about-me-basic-info{
+	font-size:18px;
+	/*text-align: justify; */
 }
 
 /* fa element inside heading */
 .about-me-fa{
-	margin-right:15px;
+	margin-left:5px;
+	margin-right:5px;
+	margin-top:15px;
+}
+
+#portfolio{
+	height:100%;
+	padding-top: 70px;
+	padding-bottom: 50px;
+	background:-webkit-linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("media/lauren1920x1277.jpg") top center no-repeat fixed;
+	background:-o-linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("media/lauren1920x1277.jpg") top center no-repeat fixed;
+	background:-moz-linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("media/lauren1920x1277.jpg") top center no-repeat fixed;
+	background:linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("media/lauren1920x1277.jpg") top center no-repeat fixed;
+	background-size:cover;
+	/*background:url('media/lauren1920x1277.jpg');*/
+}
+
+.portfolio-header{
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.portfolio-projects{
+	display: inline-block;
+	/*margin: 40px 0px 40px 0;*/
+	margin-top:40px;
+	margin-bottom: 40px;;
+	/*	set allowance for text since this the container;
+	Nevermind switching to bootstrap grid system*/
+	
+	height:300px;
+	/*border:1px solid #FFF;*/
+}
+.projects-container{
+	padding-left: 60px;
+}
+
+.project-header{
+	text-align: center;
+	color:#c4dce6;
+}
+
+.project-description{
+	color:#c4dce6;
+}
+
+h4.project-description{
+	font-family: 'Roboto Slab', serif;
+	text-align: center;
+}
+
+p.project-description{
+	font-family: 'Lato', sans-serif;
+	text-align:justify;
+}
+
+.project-link:hover{
+	text-decoration: none;
+}
+
+#contact-me{
+	height:100%;
+	font-family: 'Roboto Slab', serif;
+	padding-top:120px;
+	padding-bottom: 130px;
+	background:-webkit-linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url('media/carl1920x1280.jpg') bottom center no-repeat;
+	background:-o-linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url('media/carl1920x1280.jpg') bottom center no-repeat;
+	background:-moz-linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url('media/carl1920x1280.jpg') bottom center no-repeat;
+	background:linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url('media/carl1920x1280.jpg') bottom center no-repeat;
+	background-size: cover;
+}
+
+.contact-me-content{
+	margin-top: 50px;
+}
+
+.contact-me-extra{
+	margin-top:30px;
+	font-family: 'Lato', sans-serif;
+	color:#c4dce6;
+}
+
+.hover-container{
+	margin-left: auto;
+	margin-right: auto;
+	width:50%;
+	height: 100%;
+	text-align:center;
 }

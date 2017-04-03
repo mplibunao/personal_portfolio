@@ -22,3 +22,8 @@ Anyway, same User Stories:
 - User Story: I can see thumbnail images of different projects the portfolio creator has built (if you haven't built any websites before, use placeholders.)
 
 - User Story: I navigate to different sections of the webpage by clicking buttons in the navigation.
+
+
+Okay just for lolz, I'm including here the link the to my first attempt at this project when I first started Free Code Camp.
+https://codepen.io/mplibunao/full/pRNYOJ/
+This is after 3 months and somehow I'm glad I did the whole project again. I think I can safely say that I've improve even just a bit. lol

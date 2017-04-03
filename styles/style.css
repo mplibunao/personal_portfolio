@@ -217,10 +217,16 @@ p.project-description{
 	font-family: 'Roboto Slab', serif;
 	padding-top:120px;
 	padding-bottom: 130px;
+	background:-webkit-linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url('media/carl1920x1280.jpg') top center no-repeat;
+	background:-o-linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url('media/carl1920x1280.jpg') top center no-repeat;
+	background:-moz-linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url('media/carl1920x1280.jpg') top center no-repeat;
+	background:linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url('media/breather1920x1280.jpg') center center no-repeat;
+	/*
 	background:-webkit-linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url('media/carl1920x1280.jpg') bottom center no-repeat;
 	background:-o-linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url('media/carl1920x1280.jpg') bottom center no-repeat;
 	background:-moz-linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url('media/carl1920x1280.jpg') bottom center no-repeat;
 	background:linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url('media/carl1920x1280.jpg') bottom center no-repeat;
+	*/
 	background-size: cover;
 }
 

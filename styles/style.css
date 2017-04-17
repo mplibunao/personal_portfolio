@@ -139,6 +139,7 @@ body{
 .about-me-content{
 	font-size:18px;
 	margin-left:40px;
+	line-height: 1.5em;
 	/*text-align: justify;*/
 }
 
